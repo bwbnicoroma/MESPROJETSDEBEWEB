@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "SuperMario256";
+    src: url("font/SuperMario256.ttf") format("truetype");
+    src: url("font/SuperMario256.ttf") format("truetype");
+}
+
+body {
+    background-image: url("image/fond.jpeg");
+    margin: 0px;
+    padding: 0px;
+    font-family: "SuperMario256";
+}
+
+#laby{
+    margin: auto;
+    border-collapse: collapse;
+}
+
+tr {
+    margin: 0;
+}
+
+#timer {
+    width: 50px;
+    font-size: 30px;
+    font-family: "SuperMario256";;
+    color: white;
+    margin-left: 47%;
+}
+
+#mur{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: url("image/mur_pierre.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+#chemin{
+    background-color: white;
+    background-image: url("image/sol.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+#etage{
+    background-color: greenyellow;
+    background-image: url("image/teleporteur2.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+#piege{
+    background-color: blue;
+    background-image: url("image/vortex5.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: transparent;
+}
+
+#perso{
+    background-image: url("image/adam.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+#entrer{
+    background-image: url("image/porte.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+#fin{
+    background-color: violet;
+    background-image: url("image/teleporteur2.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+#btnStart{
+    color: rgb(153, 153, 153);
+    background-image: url(image/fonddubouton.jpeg);
+    background-size: cover;
+    width: 500px;
+    height: 200px;
+    display: block;
+    position: absolute;
+    top: 33%;
+    left: 33%;
+    margin: auto;
+    border: none;
+    font-size: 100px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 2px 2px rgb(153, 153, 153);
+;
+}
+
+#btnStart:hover{
+    box-shadow: 5px 5px 5px 5px rgb(153, 153, 153);
+}
+
+h1{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 300px;
+    color: white;
+    font-family: "SuperMario256";
+}
+
+#messagepiege {
+    font-size: 50px;
+    color: white;
+}
+
+#piegeanimation img {
+    width: 75%;
+    height: 75%;
+    margin-left: 200px;
+    position: absolute;
+    border-radius: 100px;
+    border-style: ridge;
+}
+
+#portailniveau img {
+    width: 75%;
+    height: 75%;
+    margin-left: 200px;
+    position: absolute;
+    border-radius: 100px;
+    border-style: ridge;
+}
